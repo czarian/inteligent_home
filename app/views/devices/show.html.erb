@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @device.name %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @device.type %>
+</p>
+
+<p>
+  <strong>On:</strong>
+  <%= @device.on %>
+</p>
+
+<p>
+  <strong>Room category:</strong>
+  <%= @device.room_category %>
+</p>
+
+<%= link_to 'Edit', edit_device_path(@device) %> |
+<%= link_to 'Back', devices_path %>
